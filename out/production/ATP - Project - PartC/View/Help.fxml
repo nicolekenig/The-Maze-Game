@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="724.0" prefWidth="633.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HelpController">
+    <children>
+        <GridPane layoutX="12.0" layoutY="1.0" prefHeight="707.0" prefWidth="621.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="599.0" minWidth="10.0" prefWidth="573.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="287.0" minWidth="0.0" prefWidth="0.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label alignment="CENTER" contentDisplay="TOP" prefHeight="43.0" prefWidth="626.0" text="Help" textFill="#8c0000" GridPane.columnSpan="2">
+                    <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+                    </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <Glow level="0.46" />
+                     </input>
+                  </Glow>
+               </effect>
+                </Label>
+                <Label text="You are the fox and you want to find the yellow fence." textFill="#bababa" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="10.0" layoutY="332.0" text="Go to it in the maze, by going:" textFill="#b8b8b8" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="10.0" layoutY="338.0" prefHeight="83.0" prefWidth="573.0" text="diagonally, up, down, left and right  with the num pads or" textFill="#bababa" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="10.0" layoutY="386.0" prefHeight="83.0" prefWidth="573.0" text="with the arrows key on your keyboard." textFill="#bababa" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                </Label>
+                <Label text="Start a new Game:" textFill="#bababa" underline="true" GridPane.columnSpan="2" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="Calibri Light Italic" size="26.0" />
+                    </font>
+                </Label>
+                <Label text="1. Choose the size of your maze - insert the number of" textFill="#bababa" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="Calibri Light Italic" size="24.0" />
+                    </font>
+                </Label>
+                <Label prefHeight="28.0" prefWidth="587.0" text="columns and number of rows to the labels in the left side of" textFill="#bababa" GridPane.columnSpan="2" GridPane.rowIndex="9">
+                    <font>
+                        <Font name="Calibri Light Italic" size="24.0" />
+                    </font>
+                </Label>
+                <Label prefHeight="28.0" prefWidth="624.0" text="the window." textFill="#bababa" GridPane.rowIndex="10">
+                    <font>
+                        <Font name="Calibri Light Italic" size="24.0" />
+                    </font>
+                </Label>
+                <Label text="2. Press the &quot;Generate Maze&quot; button and start to play" textFill="#bababa" GridPane.rowIndex="11">
+                    <font>
+                        <Font name="Calibri Light Italic" size="24.0" />
+                    </font>
+                </Label>
+            <Label layoutX="10.0" layoutY="332.0" text="Music:" textFill="#bababa" underline="true" GridPane.rowIndex="14">
+               <font>
+                  <Font name="Calibri Light Italic" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="437.0" prefHeight="28.0" prefWidth="632.0" text="In the bottom menu bar press the &quot;Play Music&quot; button to" textFill="#bababa" GridPane.rowIndex="15">
+               <font>
+                  <Font name="Calibri Light Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="563.0" prefHeight="28.0" prefWidth="629.0" text="play the music or the &quot;Mute&quot; button to mute the music." textFill="#bababa" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Calibri Light Italic" size="24.0" />
+               </font>
+            </Label>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="632.0" text="Good Luck in the game!  :)" textFill="#8c0000" GridPane.rowIndex="18">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <Glow level="0.63" />
+                     </input>
+                  </Glow>
+               </effect>
+                </Label>
+            </children>
+        </GridPane>
+      <ImageView fx:id="imageHelp" blendMode="EXCLUSION" fitHeight="143.0" fitWidth="148.0" layoutX="467.0" layoutY="163.0" pickOnBounds="true" rotate="16.0">
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+    </children>
+</AnchorPane>

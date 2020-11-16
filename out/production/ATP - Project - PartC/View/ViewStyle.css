@@ -1,0 +1,23 @@
+.root{
+    -fx-background-color: Black;
+}
+
+Button {
+    -fx-font-family: "Calibri Bold Italic";
+    -fx-font-weight: bold;
+}
+
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: #680a0a;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+Label{
+    -fx-font-family:"Calibri";
+    -fx-font-size: 20;
+}
